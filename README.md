@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Go DoS Attack Tool
 
 This is a Go application that simulates a Denial-of-Service (DoS) attack tool. It allows you to launch attacks, stop them, and monitor their status through a simple API and a web interface.
@@ -29,3 +30,5 @@ This is a Go application that simulates a Denial-of-Service (DoS) attack tool. I
 1.  Clone the repository:
     
     
+=======
+
