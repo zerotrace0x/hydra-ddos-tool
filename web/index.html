@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DoS Attack Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>DoS Attack Tool</h1>
+
+    <form id="attackForm">
+        <div>
+            <label for="url">Target URL:</label>
+            <input type="url" id="url" name="url" required>
+        </div>
+        <div>
+            <label for="workers">Workers:</label>
+            <input type="number" id="workers" name="workers" value="1" required>
+        </div>
+        <div>
+            <label for="post-size">Post Size (bytes):</label>
+            <input type="number" id="post-size" name="post-size" value="1024" required>
+        </div>
+        <button type="button" id="startAttack">Start Attack</button>
+        <button type="button" id="stopAttack">Stop Attack</button>
+    </form>
+
+    <h2>Status</h2>
+    <div id="status"></div>
+
+    <h2>Logs</h2>
+    <div id="logs"></div>
+    <button type="button" id="clearLogs">Clear Logs</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

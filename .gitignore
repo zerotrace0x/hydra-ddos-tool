@@ -1,0 +1,22 @@
+diff
+--- a/.gitignore
++++ b/.gitignore
+@@ -0,0 +1,2 @@
++key.pem
++cert.pem
+__pycache__/
+# private keys / certs / keystores / env
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+*.jks
+*.keystore
+.env
+secrets/
+certs/
+*.pem
+*.key
