@@ -1,5 +1,6 @@
-<<<<<<< HEAD
-# Go DoS Attack Tool
+# Hydra DoS Attack Tool
+
+NOTE: Under development
 
 This is a Go application that simulates a Denial-of-Service (DoS) attack tool. It allows you to launch attacks, stop them, and monitor their status through a simple API and a web interface.
 
